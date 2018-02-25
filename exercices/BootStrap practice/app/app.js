@@ -1,0 +1,1 @@
+document.getElementById('mybtn').setAttribute('class','btn btn-info')

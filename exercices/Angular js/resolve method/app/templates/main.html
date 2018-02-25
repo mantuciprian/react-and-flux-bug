@@ -1,0 +1,13 @@
+<div>
+<h3>News:</h3>
+    
+    <br />
+   
+    <ul ng-repeat="title in infos.results" class="list">
+        <li class="alert listMain"><a ui-sref="details({Id:$index})">{{title.webTitle}}<span class="right">{{title.webPublicationDate}}</span></a></li>
+    </ul>
+   
+</div>
+<div>
+   
+</div>

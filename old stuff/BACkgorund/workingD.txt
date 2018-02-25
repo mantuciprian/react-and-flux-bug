@@ -1,0 +1,21 @@
+var operatieMatematica = new Object();
+
+function calc() {
+    operatieMatematica.primuNumar = document.getElementById("nr1").value;
+    operatieMatematica.operator = document.getElementById("oper").value;
+    operatieMatematica.aldoileaNumar = document.getElementById("nr2").value;
+    var result;
+    if (operatieMatematica.operator === "+") {
+        result = Number(operatieMatematica.primuNumar) + Number(operatieMatematica.aldoileaNumar)
+    } else if (operatieMatematica.operator === "-") {
+        result = Number(operatieMatematica.primuNumar) - Number(operatieMatematica.aldoileaNumar)
+    } else if (operatieMatematica.operator === "*") {
+        result = Number(operatieMatematica.primuNumar) * Number(operatieMatematica.aldoileaNumar)
+    } else if (operatieMatematica.operator === "/") {
+        result = Number(operatieMatematica.primuNumar) / Number(operatieMatematica.aldoileaNumar)
+    } else {result="Type a valit operator!" }
+    var position = document.getElementById("operationResult");
+    position.textContent = result;
+}
+var calculation = document.getElementById("calculate");
+calculation.addEventListener("click", calc);

@@ -1,0 +1,37 @@
+.responsive {
+    width: 24.99999%;
+  background-color:lightgray;
+    float:left;
+}
+.sqare {
+    background-color: blue;
+    width:180px;
+    height:180px;
+    margin:auto;
+}
+[title] {
+    background-color:red;
+
+}
+p,div {
+    color:red;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin:6px 0;
+    }
+    .sqare {
+        background-color: red;
+       
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+    .sqare {
+        background-color: yellow;
+       
+    }
+}

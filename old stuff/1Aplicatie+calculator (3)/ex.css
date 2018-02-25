@@ -1,0 +1,19 @@
+.container {
+    text-align:center;
+}
+.thumbnail {background-color:grey;
+           
+}
+.tip {color:red;
+      font-size:30px;
+}
+.userColor {color:white;
+}
+.inviz {
+    display:none;
+}
+.listaaa {list-style-type:none;
+}
+.resultBack {background-color:Highlight;
+            
+}

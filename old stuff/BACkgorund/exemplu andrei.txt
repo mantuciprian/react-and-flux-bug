@@ -1,0 +1,29 @@
+// https://docs.angularjs.org/api/ng/service/$http
+var app = angular.module('myApp', []);
+app.service('userService', function () {
+
+var privateHello = 'hello';
+
+  this.users = ['John', 'James', 'Jake'];
+   this.sayHello = function () {alert(privateHello + ' .service method') }
+});
+
+app.controller('ctrl', function ($scope, userService) {
+    $scope.nume = userService.users[1];
+    $scope.sal = userService.sayHello;
+});
+app.factory('facService', function () {
+
+	var privateHello = 'hello';
+    
+    return {
+    	saluta : function () {alert(privateHello + ' .fac method') }
+    };
+});
+
+app.controller('ctrl2', function ($scope, facService) {
+   // $scope.nume = facService.users[1];
+    $scope.sal = facService.saluta;
+})
+///
+https://ui-router.github.io/guide/ng1/route-to-component

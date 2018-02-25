@@ -1,0 +1,12 @@
+var adunare=function(y,z){
+
+        var multi=function(x){
+            return x*x;
+        };
+        var sum=function(x){
+            return x+x;
+        };
+        var result= multi(y)+ sum(z);
+
+        return result;
+    }

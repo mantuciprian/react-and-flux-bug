@@ -1,0 +1,39 @@
+.red{
+    color:red;
+    font-size:30px;
+
+}
+.bold {
+    font-weight:bold;
+    font-size:40px;
+}
+.green {
+    color: green;
+    font-size:40px;
+}
+.chil {
+    color:aqua;
+    font-size:40px;
+}
+.navbar {
+    display:inline-block;
+   list-style-type:none;
+   color:lightblue;
+ 
+}
+ .navbar li {
+        padding: 20px;
+    } 
+    a {
+        text-decoration: none;
+        color: mediumpurple;
+    }
+    a:hover {
+        background-color:whitesmoke;
+    }
+li:hover {
+    background-color: whitesmoke;
+}
+.left {
+    float:left;
+}

@@ -1,0 +1,4 @@
+angular ui rout cdn :
+https://www.mamp.info/en/
+
+<script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>

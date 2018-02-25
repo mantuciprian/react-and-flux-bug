@@ -1,0 +1,15 @@
+<div>
+<h3>News:</h3>
+    
+    <br />
+  
+    <ul ng-repeat="title in infos | startFrom : (currentPage - 1) * pageSize |limitTo :pageSize" class="list" >
+        <li class="alert listMain"><a ui-sref="details({Id:(currentPage - 1) * pageSize + $index})">{{title.webTitle}}<span class="right">{{title.webPublicationDate}}</span></a></li>
+    </ul>
+    <div class="pagi">
+   <ul uib-pagination page-label="$page" direction-links="false" total-items="infos.length" ng-model="currentPage" items-per-page="pageSize"></ul>
+</div>
+</div>
+<div>
+   
+</div>

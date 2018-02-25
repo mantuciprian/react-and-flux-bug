@@ -1,0 +1,84 @@
+﻿        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="ex.css" />
+</head>
+<body>
+    <div class="container inviz" id="viz">
+    <div class="alert alert-info alert-dismissable fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        Create an account to use or site
+    </div>
+        </div>
+    <div class="container jumbotron" >
+        <div class="thumbnail">
+        <p class="userColor">User Name:</p>
+        <input type="text" id="username" />
+            <p id="mesage"></p>
+            <p class="userColor">Password:</p>
+            <input type="password"  id="password"  />
+            <p id="pwMsg"></p>
+            <button type="button" class="btn btn-primary"  id="register">Register</button>
+            <p id="messageError"></p>
+            </div>
+
+    </div>
+    <div class="container jumbotron">
+        <p>Account Data Server:</p>
+        <p>Username:</p>
+        <p id="usernameData"></p>
+        <p>Password:</p>
+        <p id="passwordData"></p>
+    </div>
+    <div class="container">
+        <p id="accountSuccess"></p>
+
+    </div>
+    <div class="container thumbnail">
+     <p class="alert alert-success ">Enter some text</p>
+         <textarea  rows="4" cols="50" id="txtArea">
+           
+      </textarea>
+        <p id="caracLeft" class="alert alert-info"></p>
+    </div>
+    <div class="container jumbotron">
+        <p>List adder:</p>
+        <ul id="listReceiver" class="list-group listaaa">
+            <li>Default</li>
+
+        </ul>
+        <input type="text" id="itmName"/>
+        <button type="button" id="add">ADD ITEM</button>
+        <p id="test"></p>
+    </div>
+    <div class="container">
+        <p>Claculator side:</p>
+        <div class="container jumbotron">
+        <input type="text" id="nr1" placeholder="Type any number" class="btn"/>
+        <input type="text" id="oper" placeholder="Type an operator like -, +, / or *" class="btn"/>
+        <input type="text" id="nr2" placeholder="Type any number" class="btn"/>
+        <button type="button" id="calculate" class="btn btn-success">calculate</button>
+        <div class="jumbotron resultBack">
+            <p id="operationResult"></p>
+            </div>
+            </div>
+    </div>
+    
+ 
+   
+    <script src="js.js">
+    
+    </script>
+    
+    
+   
+    
+
+</body>
+</html>

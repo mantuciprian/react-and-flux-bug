@@ -1,0 +1,77 @@
+.red{
+    color:red;
+    font-size:30px;
+
+}
+.bold {
+    font-weight:bold;
+    font-size:40px;
+}
+.green {
+    color: green;
+    font-size:40px;
+}
+.chil {
+    color:aqua;
+    font-size:40px;
+}
+.navbar {
+    display:inline-block;
+   list-style-type:none;
+   color:lightblue;
+ 
+}
+ .navbar li {
+        padding: 20px;
+    } 
+    a {
+        text-decoration: none;
+        color: mediumpurple;
+    }
+    a:hover {
+        background-color:whitesmoke;
+    }
+li:hover {
+    background-color: whitesmoke;
+}
+.left {
+    float:left;
+}
+.politics {
+    float:right;
+}
+.detailContainer {
+margin-left:10%;
+}
+.detail {
+    border: 1px solid #2061c9;
+    width: 80%;
+    background-color: #e3e7ed
+}
+.detailTitle {
+    background-color: #2061c9;
+    color: white;
+}
+.detailTitlePara {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:5px;
+}
+.linkbak {
+    background-color: #ffffff;
+}
+.listMain {
+    background-color: #e3e7ed;
+    width:80%;
+    margin-left:10%;
+}
+.right{
+    float:right;
+
+}
+.list {
+    list-style-type:none;
+}
+.pagi {
+    text-align:center;
+}

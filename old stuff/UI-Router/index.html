@@ -1,0 +1,55 @@
+﻿<html ng-app="app" >
+<head>
+    <title>
+        Angular routing practice
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="rout.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.js"></script>
+  <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+</head>
+<body>
+
+   <div class="row">
+       <div class="col-lg-12 title" ><h1>My first state route</h1></div>
+       <div class="col-sm-2 buttons">
+       <h3>Buttons:</h3>
+       <ul>
+           <li><a ui-sref="bmw">bmw</a></li>
+           <li><a ui-sref="mercedes">mercedes</a></li>
+       </ul>
+       </div>
+      
+        <div class="col-sm-8" style="background-color:lavender;"><ui-view></ui-view></div>
+
+   </div>
+    <div ng-controller="BmwCtrl">
+        {{parts}}<br />
+        
+    </div>
+    <div ng-controller="dou">
+<table >
+    <tr ng-repeat="item in itm | checkedItems:showComplete" >
+        <td>{{item.action}}</td>
+        <td><input type="checkbox" ng-model="item.done" /></td>
+        <td >{{item.done}}</td>
+
+  
+</table>
+        <input ng-model="input"/><button ng-click="addItm(input)">add to list</button>
+        <div class="checkbox-inline">
+            <label><input type="checkbox" ng_model="showComplete"> Show Complete</label>
+        </div>
+    </div>
+  <div>
+      <h3>Json</h3>
+
+  </div>
+    
+    <script src="rout.js"></script>
+</body>
+</html>

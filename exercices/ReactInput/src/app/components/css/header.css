@@ -1,0 +1,14 @@
+h3{
+    color:whitesmoke;
+}
+.proba{
+    background-color:yellowgreen;
+    text-decoration:line-through;
+}
+
+.uncompleted{
+    display:block;
+}
+.completed{
+    display:none;
+}

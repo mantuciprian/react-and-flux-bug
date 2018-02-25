@@ -1,0 +1,16 @@
+<div>
+<h3>Baseball players:</h3>
+<ul ng-repeat="player in bbPlayers" class="  navbar  "><li><a ui-sref="details({Id:$index})">{{ player.name}}</a></li></ul>
+</div>
+<div>
+    <ul>
+        <li>name:<input ng-model="Name"/></li>
+        <li>avg:<input ng-model="Avg"/></li>
+        <li>hr:<input ng-model="Hr"/></li>
+
+        <li>obp<input ng-model="Obp"/></li>
+
+
+    </ul>
+    <button ng-click="add(Name,Avg,Hr,Obp)">Add</button>
+</div>

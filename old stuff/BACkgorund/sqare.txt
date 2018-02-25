@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/square-n-sum/train/javascript
+function squareSum(x,y,z){
+function square(x){return x*x};
+
+var result=square(x)+square(y)+square(z);
+
+return result;
+}
+squareSum(1,2,2)

@@ -1,0 +1,30 @@
+function findSum(z,a){
+for(var x=0;x<z;x++);for(var y=0;y<a;y++);
+var rezultat=x+y;
+return rezultat;
+
+}
+\\\\
+var rezultat=0;
+for(var x=0;x<10;x++)
+rezultat=rezultat+x;\\
+
+var array = [1, 2, 3];
+for (var i = 0; i < array.length; i++) {
+  var current = array[i];
+  for(sum=0;sum<current;sum++)
+var rezult=curent[sum];
+return rezult;
+}
+
+var arr=[1,2,3,4],sum=0;
+
+forEach(arr,function(number){sum=sum+number;});console.log(sum);////
+///
+var x=1;
+var y=function(y){return y+y}
+var array = [1, 2, 3];
+for (var i = 0; i < array.length; i++) {
+  var current = array[i];
+ return(current);
+}

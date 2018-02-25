@@ -1,0 +1,9 @@
+  <input type="checkbox" ng-model="priceC" />
+    <br />
+    {{(priceC ? 200 : 100 ) + (second ? 1000 : 50 )}}
+    <br />
+    <input type="checkbox" ng-model="second" />
+    <br />
+    {{second ? 1000 : 50}}
+    <br />
+   total: <br />

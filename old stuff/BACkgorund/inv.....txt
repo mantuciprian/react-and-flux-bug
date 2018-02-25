@@ -1,0 +1,7 @@
+var adunare=function(y,z){
+var y=function(x){x*x};
+var z=function(x){x+x};
+var result=y+z;
+return result;
+}
+// daca adunare(2,3)=>2*2+3+3

@@ -1,0 +1,13 @@
+sus ai asa
+daca ti cu mouseul e un buton din ala se face rosu textul
+daca il selectezi
+are o linie rosie dedesupt si e si textul rosu
+daca e o lista
+atunci apare un dropdown
+cum e in poza
+daca apesi oriunde altundeva dispare dropwonul
+daca apesi pe una din pozele si scrisul selector de pe rosu mijoc pozele alea albe devin un pic mai mari cu un effect de zoom de 0.5 secunde
+si se intorc inapoi la starea initiala cand iei mouseul ca la mine pe voteknot
+si jos
+ti mouseul pe un scris din bra de jos devine rosu
+baga mare cand poti

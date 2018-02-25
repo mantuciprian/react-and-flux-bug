@@ -1,0 +1,9 @@
+1.tabel>>>ul list(de folosit numai list in loc de tabele )
+2.addEventLisener la divuri in loc de onclick :
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_addeventlistener_displaydate
+3.orice constructor cu litera mare
+4.sa pun liste bordere negre si in momentrul in care apas sa se schimbe culoarea ca sa nu  mai se duca in jos pagina
+5.pozitie absolut la dropdown
+6 divul invizibil display:none cand e off ,cand e on sa fie display block...tansparenta asa cum e
+7.pt a inlocui buttonu :
+https://www.w3schools.com/cssref/pr_class_cursor.asp

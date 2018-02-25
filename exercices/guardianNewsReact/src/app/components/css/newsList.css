@@ -1,0 +1,16 @@
+.moveRight{
+    float:right;
+}
+.list{
+    list-style-type: none;
+}
+.title{
+    color:black;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.theLink{
+    color:blue;
+}
